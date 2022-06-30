@@ -1,0 +1,31 @@
+div {
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+div[id="but"]{
+    padding-left: 550px;
+}
+div[id="gend"]{
+    padding-left: 350px;
+}
+div[id="cour"]{
+    padding-left: 450px;
+}
+div[id="selA"]{
+    padding-left: 500px;
+}
+div[id="usn"]{
+    padding-left: 450px;
+}
+div[id="pwd"]{
+    padding-left: 450px;
+}
+div[id="ema"]{
+    padding-left: 450px;
+}
+input[id="email"] {
+    padding-left: 28px;
+}
+input[id="password"] {
+    padding-left: 5px;
+}

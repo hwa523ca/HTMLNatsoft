@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Calculator</title>
+        <script src="DCFunctions.js">
+            
+        </script>
+        <link rel="stylesheet" href="DCStyling.css">
+    </head>
+    <body>
+        <h2>Digital Calculator</h2><hr/>
+        <h3>
+        <a id="homePage" href="../MainPage/HomePage.html">Home</a>
+        <a id="regPage" href="../RegistrationPage/registrationPage.html">Registration</a>
+        <a id="calcPage" href="../RegularCalculator/calculator.html">Calculator</a>
+        <a id="digCalcPage" href="../DigitalCalculator/DigitalCalculator.html">Digital Calculator</a>
+        <a id="digClockPage" href="../DigitalClock/DigitalClock.html">Digital Clock</a>
+        </h3>
+        <table class="Digital-Calculator">
+            <tr>
+                <td colspan="3"> <input class="display-box" type="text" id="result" /> </td>
+                <td> <input type="button" value="C" onclick="clearData()" id="btn" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="7" onclick="displayData('7')" /> </td>
+                <td> <input type="button" value="8" onclick="displayData('8')" /> </td>
+                <td> <input type="button" value="9" onclick="displayData('9')" /> </td>
+                <td> <input type="button" value="/" onclick="displayData('/')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4" onclick="displayData('4')" /> </td>
+                <td> <input type="button" value="5" onclick="displayData('5')" /> </td>
+                <td> <input type="button" value="6" onclick="displayData('6')" /> </td>
+                <td> <input type="button" value="*" onclick="displayData('*')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="1" onclick="displayData('1')" /> </td>
+                <td> <input type="button" value="2" onclick="displayData('2')" /> </td>
+                <td> <input type="button" value="3" onclick="displayData('3')" /> </td>
+                <td> <input type="button" value="-" onclick="displayData('-')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="0" onclick="displayData('0')" /> </td>
+                <td> <input type="button" value="." onclick="displayData('.')" /> </td>
+                <td> <input type="button" value="=" onclick="resultData()" id="btn" /> </td>
+                <td> <input type="button" value="+" onclick="displayData('+')" /> </td>
+            </tr>
+        </table>
+    </body>
+</html>

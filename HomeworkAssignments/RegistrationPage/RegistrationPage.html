@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link href="RPStyling.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Registration Page</h2><hr/>
+        <h3>
+        <a id="homePage" href="../MainPage/HomePage.html">Home</a>
+        <a id="regPage" href="../RegistrationPage/registrationPage.html">Registration</a>
+        <a id="calcPage" href="../RegularCalculator/calculator.html">Calculator</a>
+        <a id="digCalcPage" href="../DigitalCalculator/DigitalCalculator.html">Digital Calculator</a>
+        <a id="digClockPage" href="../DigitalClock/DigitalClock.html">Digital Clock</a>
+        </h3>
+        <div class="wrapper">
+            <div class="column" id="usn">
+                Username: <input type="text" id="username">
+            </div>
+            <div class="column" id="pwd">
+                Password: <input type="text" id="password">
+            </div>
+            <div class="column" id="ema">
+                Email: <input type="text" id="email">
+            </div>
+            <div class="column" id="gend">
+                Gender:
+                    <input type="radio" value="Male" name="gender"> Male 
+                    <input type="radio" value="Female" name="gender"> Female
+                    <input type="radio" value="Non-Binary" name="gender"> Non-Binary  
+                    <input type="radio" value="Other" name="gender"> Other/Refuse to specify
+            </div>
+            <div class="column" id="cour">
+                Course:
+                <input type="checkbox" value="Angular" name="angular"> Angular
+                <input type="checkbox" value="Java" name="java"> Java
+                <input type="checkbox" value="React" name="react"> React  
+            </div>
+            <div class="column">
+                Address:
+                <textarea value="addressA" cols="90" rows="6"></textarea>  
+            </div>
+            <div class="column" id="selA">
+                Select Age:
+                <select>
+                    <option value="selA">--Choose--</option>
+                    <option value="a1">0-17</option>
+                    <option value="a2">18-24</option>
+                    <option value="a3">25-49</option>
+                    <option value="a4">50-64</option>
+                    <option value="a5">65+</option>
+                </select>  
+            </div>
+            <div class="column" id="but">
+                <input type="button" value="Submit" id="subB">
+            </div>
+        </div>
+    </body>
+</html>

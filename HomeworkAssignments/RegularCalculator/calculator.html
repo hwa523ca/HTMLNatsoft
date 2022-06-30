@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="myexternal.js">
+
+    </script>
+    <link rel="stylesheet" href="calcstyle.css">
+</head>
+<body>
+    <!--<h2>Calculator</h2><hr/>-->
+    <h2>Calculator</h2><hr/>
+    <h3>
+        <a id="homePage" href="../MainPage/HomePage.html">Home</a>
+        <a id="regPage" href="../RegistrationPage/registrationPage.html">Registration</a>
+        <a id="calcPage" href="../RegularCalculator/calculator.html">Calculator</a>
+        <a id="digCalcPage" href="../DigitalCalculator/DigitalCalculator.html">Digital Calculator</a>
+        <a id="digClockPage" href="../DigitalClock/DigitalClock.html">Digital Clock</a>
+    </h3>
+    <div class="wrapper">
+        <div class="column" id="firN">
+            First Number: <input type="text" id="firstNumber"/>
+        </div>
+        <div class="column" id="secN">
+            Second Number: <input type="text" id="secondNumber"/>
+        </div>
+        <div class="column" id="reN">
+            Result: <input class="display-box" type="text" id="res"/>
+        </div>
+        <div class="row">
+            <input type="button" value="Add" onclick="addOperation()"/>
+            <input type="button" value="Sub" onclick="subOperation()"/>
+            <input type="button" value="Mul" onclick="mulOperation()"/>
+            <input type="button" value="Div" onclick="divOperation()"/>
+        </div>
+    </div>
+</body>
+</html>

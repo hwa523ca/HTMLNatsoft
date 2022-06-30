@@ -1,0 +1,6 @@
+<h2>*Name of page here*</h2><hr/>
+<a id="homePage" href="../MainPage/HomePage.html">Home</a>
+<a id="regPage" href="../RegistrationPage/registrationPage.html">Registratione</a>
+<a id="calcPage" href="../RegularCalculator/calculator.html">Calculator</a>
+<a id="digCalcPage" href="../DigitalCalculator/DigitalCalculator.html">Digital Calculator</a>
+<a id="digClockPage" href="../DigitalClock/DigitalClock.html">Digital Clock</a>
